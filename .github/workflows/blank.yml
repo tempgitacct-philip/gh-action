@@ -1,0 +1,11 @@
+name: first workflow
+on: workflow_dispatch
+jobs:
+  first-job: 
+    runs-on: qubuntu-latest
+    steps:
+      - name: Print greeeting
+        run: echo "hellow wwww"
+      - name: print bye
+        run: echo "done bye"
+        
