@@ -2,7 +2,7 @@ name: first workflow
 on: workflow_dispatch
 jobs:
   first-job: 
-    runs-on: qubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print greeeting
         run: echo "hellow wwww"
