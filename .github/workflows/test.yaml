@@ -7,6 +7,7 @@ jobs:
       - name: get code
         uses: actions/checkout@v3
       - name: install node
+        uses: actions/setup-node@v4
         with: 
           node-version: 18
       - name: dependencey install
